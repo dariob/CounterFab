@@ -57,9 +57,9 @@ public class CounterFab extends FloatingActionButton {
                 }
             };
 
-    private static final int MAX_COUNT = 99;
-    private static final String MAX_COUNT_TEXT = "99+";
-    private static final int TEXT_SIZE_DP = 11;
+    private static final int MAX_COUNT = 999;
+    private static final String MAX_COUNT_TEXT = "999";
+    private static final int TEXT_SIZE_DP = 13;
     private static final int TEXT_PADDING_DP = 2;
     private static final int MASK_COLOR = Color.parseColor("#33000000"); // Translucent black as mask color
     private static final Interpolator ANIMATION_INTERPOLATOR = new OvershootInterpolator();
